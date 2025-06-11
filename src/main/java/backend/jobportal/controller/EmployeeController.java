@@ -84,7 +84,7 @@ public class EmployeeController {
         return new ResponseEntity<>(employeeSkillService.createSkill(employeeSkillDto, employeeId)
                 , HttpStatus.CREATED);
     }
-
+  //it is used for getting 
     @GetMapping
     public ResponseEntity<List<EmployeeDto>> getAllEmployees() {
 
